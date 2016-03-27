@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB13CA411C99279200EC7A25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB13CA401C99279200EC7A25 /* main.m */; };
+		AB13CA441C99279200EC7A25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB13CA431C99279200EC7A25 /* AppDelegate.m */; };
+		AB13CA471C99279200EC7A25 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB13CA461C99279200EC7A25 /* ViewController.m */; };
+		AB13CA4A1C99279200EC7A25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB13CA481C99279200EC7A25 /* Main.storyboard */; };
+		AB13CA4C1C99279200EC7A25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB13CA4B1C99279200EC7A25 /* Assets.xcassets */; };
+		AB13CA4F1C99279200EC7A25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB13CA4D1C99279200EC7A25 /* LaunchScreen.storyboard */; };
+		AB13CA591C9927F200EC7A25 /* OMGAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB13CA581C9927F200EC7A25 /* OMGAlertController.m */; };
+		AB13CA5C1C99280800EC7A25 /* OMGAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = AB13CA5B1C99280800EC7A25 /* OMGAlertAction.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB13CA3C1C99279200EC7A25 /* OMGAlertController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OMGAlertController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB13CA401C99279200EC7A25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB13CA421C99279200EC7A25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB13CA431C99279200EC7A25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB13CA451C99279200EC7A25 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AB13CA461C99279200EC7A25 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AB13CA491C99279200EC7A25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB13CA4B1C99279200EC7A25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB13CA4E1C99279200EC7A25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB13CA501C99279200EC7A25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB13CA571C9927F200EC7A25 /* OMGAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMGAlertController.h; sourceTree = "<group>"; };
+		AB13CA581C9927F200EC7A25 /* OMGAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMGAlertController.m; sourceTree = "<group>"; };
+		AB13CA5A1C99280800EC7A25 /* OMGAlertAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMGAlertAction.h; sourceTree = "<group>"; };
+		AB13CA5B1C99280800EC7A25 /* OMGAlertAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMGAlertAction.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB13CA391C99279200EC7A25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB13CA331C99279200EC7A25 = {
+			isa = PBXGroup;
+			children = (
+				AB13CA3E1C99279200EC7A25 /* OMGAlertController */,
+				AB13CA3D1C99279200EC7A25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB13CA3D1C99279200EC7A25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB13CA3C1C99279200EC7A25 /* OMGAlertController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB13CA3E1C99279200EC7A25 /* OMGAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				AB13CA561C9927A500EC7A25 /* OMGAlertController */,
+				AB13CA421C99279200EC7A25 /* AppDelegate.h */,
+				AB13CA431C99279200EC7A25 /* AppDelegate.m */,
+				AB13CA451C99279200EC7A25 /* ViewController.h */,
+				AB13CA461C99279200EC7A25 /* ViewController.m */,
+				AB13CA481C99279200EC7A25 /* Main.storyboard */,
+				AB13CA4B1C99279200EC7A25 /* Assets.xcassets */,
+				AB13CA4D1C99279200EC7A25 /* LaunchScreen.storyboard */,
+				AB13CA501C99279200EC7A25 /* Info.plist */,
+				AB13CA3F1C99279200EC7A25 /* Supporting Files */,
+			);
+			path = OMGAlertController;
+			sourceTree = "<group>";
+		};
+		AB13CA3F1C99279200EC7A25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB13CA401C99279200EC7A25 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB13CA561C9927A500EC7A25 /* OMGAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				AB13CA571C9927F200EC7A25 /* OMGAlertController.h */,
+				AB13CA581C9927F200EC7A25 /* OMGAlertController.m */,
+				AB13CA5A1C99280800EC7A25 /* OMGAlertAction.h */,
+				AB13CA5B1C99280800EC7A25 /* OMGAlertAction.m */,
+			);
+			path = OMGAlertController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB13CA3B1C99279200EC7A25 /* OMGAlertController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB13CA531C99279200EC7A25 /* Build configuration list for PBXNativeTarget "OMGAlertController" */;
+			buildPhases = (
+				AB13CA381C99279200EC7A25 /* Sources */,
+				AB13CA391C99279200EC7A25 /* Frameworks */,
+				AB13CA3A1C99279200EC7A25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OMGAlertController;
+			productName = OMGAlertController;
+			productReference = AB13CA3C1C99279200EC7A25 /* OMGAlertController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB13CA341C99279200EC7A25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "林涛";
+				TargetAttributes = {
+					AB13CA3B1C99279200EC7A25 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = CDTQ923KNC;
+					};
+				};
+			};
+			buildConfigurationList = AB13CA371C99279200EC7A25 /* Build configuration list for PBXProject "OMGAlertController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB13CA331C99279200EC7A25;
+			productRefGroup = AB13CA3D1C99279200EC7A25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB13CA3B1C99279200EC7A25 /* OMGAlertController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB13CA3A1C99279200EC7A25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB13CA4F1C99279200EC7A25 /* LaunchScreen.storyboard in Resources */,
+				AB13CA4C1C99279200EC7A25 /* Assets.xcassets in Resources */,
+				AB13CA4A1C99279200EC7A25 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB13CA381C99279200EC7A25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB13CA471C99279200EC7A25 /* ViewController.m in Sources */,
+				AB13CA441C99279200EC7A25 /* AppDelegate.m in Sources */,
+				AB13CA5C1C99280800EC7A25 /* OMGAlertAction.m in Sources */,
+				AB13CA591C9927F200EC7A25 /* OMGAlertController.m in Sources */,
+				AB13CA411C99279200EC7A25 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB13CA481C99279200EC7A25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB13CA491C99279200EC7A25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB13CA4D1C99279200EC7A25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB13CA4E1C99279200EC7A25 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB13CA511C99279200EC7A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB13CA521C99279200EC7A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB13CA541C99279200EC7A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = OMGAlertController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lt.OMGAlertController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB13CA551C99279200EC7A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = OMGAlertController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lt.OMGAlertController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB13CA371C99279200EC7A25 /* Build configuration list for PBXProject "OMGAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB13CA511C99279200EC7A25 /* Debug */,
+				AB13CA521C99279200EC7A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB13CA531C99279200EC7A25 /* Build configuration list for PBXNativeTarget "OMGAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB13CA541C99279200EC7A25 /* Debug */,
+				AB13CA551C99279200EC7A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB13CA341C99279200EC7A25 /* Project object */;
+}
